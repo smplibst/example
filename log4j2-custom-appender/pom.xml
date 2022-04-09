@@ -9,8 +9,8 @@
   <artifactId>log4j2-cuctom-appender</artifactId>
   <version>1.0.0</version>
   <packaging>jar</packaging>
-  <name>自作log4j2カスタムアペンダー</name>
-  <description>log4j2でカスタムアペンダーを作成するサンプル</description>
+  <name>自作log4j2カスタムアペンダーサンプル</name>
+  <description>log4j2でカスタムアペンダーを作成するサンプル実装</description>
 
   <!-- プロパティ -->
   <properties>
