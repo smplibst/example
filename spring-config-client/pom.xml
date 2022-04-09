@@ -6,22 +6,43 @@
 
   <!-- プロジェクト定義 -->
   <groupId>com.smplibst</groupId>
-  <artifactId>spring-config-server</artifactId>
+  <artifactId>spring-config-client</artifactId>
   <version>1.0.0</version>
-  <name>SpringCloudConfigサーバーサンプル</name>
-  <description>SpringCloudConfigサーバーのサンプル実装</description>
+  <name>SpringCloudConfigクライアントサンプル</name>
+  <description>SpringCloudConfigクライアントのサンプル実装</description>
 
   <!-- プロパティ -->
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <java.version>17</java.version>
+    <spring-boot.version>2.6.6</spring-boot.version>
   </properties>
 
   <dependencies>
+    <!-- SpringBoot -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-configuration-processor</artifactId>
+      <version>${spring-boot.version}</version>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+        <version>${spring-boot.version}</version>
+    </dependency>
     <dependency>
         <groupId>org.springframework.cloud</groupId>
-        <artifactId>spring-cloud-config-server</artifactId>
+        <artifactId>spring-cloud-starter-config</artifactId>
         <version>3.1.1</version>
+    </dependency>
+
+    <!-- lombok -->
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+      <version>1.18.22</version>
+      <scope>provided</scope>
     </dependency>
   </dependencies>
 

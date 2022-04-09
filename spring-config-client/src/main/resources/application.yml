@@ -1,0 +1,22 @@
+# サーバー設定
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  # アプリケーション名
+  application:
+    name: client1
+  # プロファイル
+  profiles:
+    active: dev
+
+  # SpringCloudConfigサーバーのURL
+  config:
+    import: configserver:http://localhost:8888
+
+  # ブランチやタグ参照する際は以下を指定する。
+  cloud:
+    config:
+      label: feature/SpringConfigServer
