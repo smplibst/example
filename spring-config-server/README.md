@@ -1,8 +1,9 @@
 # プロジェクト概要
 SpringConfigサーバーのサンプル実装
 
-# 更新履歴
+## 利用方法
+### profile指定
+profileの指定方法により挙動が異なる。  
 
-|バージョン|更新日|更新内容|
-|---|---|---|
-|v1.0.0|yyyy/MM/dd|新規リリース|
+- native: application-native.ymlが参照されるので、~/repository-native配下を見に行く。環境に併せて設定ファイルのパスを修正する必要あり。
+
