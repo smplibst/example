@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
  * @since 1.0.0
  */
 @SpringBootApplication
-public class SpringCloudConfigClientApp {
+public class SpringCloudConfigClient {
 
     /**
      * mainメソッド.<br>
@@ -23,7 +23,7 @@ public class SpringCloudConfigClientApp {
      * @since 1.0.0
      */
     public static void main(String[] args) {
-        SpringApplication.run(SpringCloudConfigClientApp.class, args);
+        SpringApplication.run(SpringCloudConfigClient.class, args);
     }
 
     /**
