@@ -1,4 +1,3 @@
-spring-config:
-  service-name: service2
-  config-type: all
-  branch: main
+application-settings:
+  my-name: client2
+  my-version: v1.0.0

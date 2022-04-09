@@ -1,4 +1,2 @@
-spring-config:
-  service-name: service1
-  config-type: dev
-  branch: main
+application-settings:
+  my-profile: dev
