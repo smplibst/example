@@ -1,10 +1,11 @@
 # 各種実装サンプルリポジトリ
 いろいろ試したソースを配置するリポジトリ
 
-# 更新履歴
+# プロジェクト一覧
 
-|機能|更新内容|  
+|プロジェクト|プロジェクト概要|  
 |---|---|  
-|spring-config|SpringCloudConfigのconfig管理用|  
+|log4j2-custom-appendar|Log4j2の独自アペンダー作成サンプル|  
 |spring-config-client|SpringCloudConfigのクライアント機能の実装サンプル|  
 |spring-config-server|SpringCloudConfigのサーバー機能の実装サンプル|  
+|spring-config|SpringCloudConfigのconfig管理用|  
