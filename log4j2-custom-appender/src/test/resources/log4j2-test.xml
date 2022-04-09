@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="com.smplibst.log4j2.appender.custom" status="off">
+  <Appenders>
+    <ConsoleSnatch name="STDOUT">
+      <PatternLayout pattern="%d %p %m%n" />
+    </ConsoleSnatch>
+  </Appenders>
+  <Loggers>
+    <Root level="trace">
+      <AppenderRef ref="STDOUT" />
+    </Root>
+  </Loggers>
+</Configuration>
