@@ -3,6 +3,6 @@
 
 # 更新履歴
 
-|機能|更新内容|
-|---|---|---|
-|spring-config-server|SpringCloudConfigのサーバー機能の実装サンプル|
+|機能|更新内容|  
+|---|---|  
+|spring-config-server|SpringCloudConfigのサーバー機能の実装サンプル|  
