@@ -1,0 +1,2 @@
+# SpringCloudConfigサンプル
+sprinig-config-serverから参照されるconfigurationリポジトリサンプル

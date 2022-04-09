@@ -1,0 +1,2 @@
+# プロジェクト概要
+SpringCloudConfigクライアントのサンプル実装
