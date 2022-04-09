@@ -1,0 +1,8 @@
+# サーバー設定
+server:
+  port: 8888
+
+# Spring設定
+spring:
+  application:
+    name: config-server
